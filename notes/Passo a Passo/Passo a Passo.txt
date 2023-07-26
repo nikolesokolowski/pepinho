@@ -1,0 +1,8 @@
+- Deve selecionar as duplas aleatoriamente;
+- Deve distribuir as cartas aleatoriamente pelo tabuleiro;
+- Ao clicar na carta a carta deve virar;
+- Deve permitir clicar em apenas duas cartas por vez;
+- Após duas cartas viradas, deve conferir as cartas;
+- Se estiverem certas, mantem viradas e o jogo continua;
+- Se estiverem erradas, desvira as cartas erradas;
+	- deve manter viradas as cartas acertadas anteriormente.

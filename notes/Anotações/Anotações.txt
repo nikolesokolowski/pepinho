@@ -1,0 +1,2 @@
+-	Utilizaremos as variáveis em português pois há muitas variáveis em inglês pré-criadas pela engine 
+	o que pode dificultar na hora de escolher os nomes de forma mais clara;
