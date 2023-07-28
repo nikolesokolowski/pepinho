@@ -1,8 +1,8 @@
-draw_self();
-draw_set_color(c_black)
-draw_text(x,y,carta);
-draw_text(x,y+10,img);
-draw_text(x,y+20,j);
-draw_text(x,y+30,numb);
-draw_text(x,y+40,test);
-draw_set_color(c_white)
+if visivel
+{
+	draw_sprite_ext(spr_Card, 1, x, y, 1, 1, image_angle, c_white, hover);
+}
+else
+{
+	draw_sprite_ext(spr_Card, 0, x, y, 1, 1, image_angle, c_white, hover);
+}

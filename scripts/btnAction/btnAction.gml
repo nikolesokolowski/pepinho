@@ -2,7 +2,22 @@ function btnAjuda(){
 	show_message("botao de ajuda");
 }
 function btnFechar(){
-	show_message("botao de fechar");
+	switch room
+	{
+		case TelaInicial:
+			//modal
+			break;
+		case Creditos:
+			voltar = TelaInicial;
+			break;
+		case Categoria:
+			voltar = TelaInicial;
+			break;
+		case Dificuldade:
+			voltar = Categoria;
+			break;
+	}
+	room_goto(voltar);
 }
 function btnVoltar(){
 	switch room

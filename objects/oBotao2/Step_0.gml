@@ -6,7 +6,8 @@ if hovering
 	image_index = 1;
 	if click
 	{
-		//room_goto();	
+		room_goto(Dificuldade);
+		global.categoria = categoria;
 	}
 }
 else
