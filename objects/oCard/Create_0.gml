@@ -1,8 +1,8 @@
-cartas = 0
+/*cartas = 0
 global.dificuldade = 2;
 
 quant = sprite_get_number(global.categoria[2])-1; //vendo quantas quantidades de pares tem na categoria;
-randomize(); //vai resetar o irandom toda vez que iniciar a instancia
+//randomize(); //vai resetar o irandom toda vez que iniciar a instancia
 
 carta1 = array_create(global.dificuldade);//array que vai guardar as cartas selecionadas
 carta2 = array_create(global.dificuldade);//array que vai guardar as cartas selecionadas
@@ -48,5 +48,7 @@ for(j=0; j<cartas; j+=1)
 
 sprite_index = global.categoria[carta] //define a sprite
 image_index = img//imagem //define o frame da sprite
+*/
 
 visivel = false;
+id_card = 0;
