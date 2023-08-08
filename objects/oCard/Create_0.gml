@@ -51,4 +51,4 @@ image_index = img//imagem //define o frame da sprite
 */
 
 visivel = false;
-id_card = 0;
+acertou = false;

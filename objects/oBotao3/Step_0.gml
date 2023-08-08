@@ -6,7 +6,7 @@ if hovering
 	image_index = 1;
 	if click
 	{
-		room_goto(Fase);	
+		room_goto(fase);	
 	}
 }
 else

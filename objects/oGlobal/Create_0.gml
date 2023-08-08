@@ -7,4 +7,7 @@ global.numeros = [4, "NÚMEROS"];
 global.objetos = [5, "OBJETOS"];
 
 //categoria selecionada pelo jogador
-global.categoria = [0, 0];
+global.categoria = [];
+
+//conta quantas cartas o jogador selecionou
+global.escolha = [];

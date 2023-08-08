@@ -5,7 +5,7 @@ function btnFechar(){
 	switch room
 	{
 		case TelaInicial:
-			//modal
+			game_end();
 			break;
 		case Creditos:
 			voltar = TelaInicial;
@@ -16,6 +16,12 @@ function btnFechar(){
 		case Dificuldade:
 			voltar = Categoria;
 			break;
+		case Fase_Facil:
+			voltar = Categoria;
+		case Fase_Medio:
+			voltar = Categoria;
+		case Fase_Dificil:
+			voltar = Categoria;
 	}
 	room_goto(voltar);
 }
