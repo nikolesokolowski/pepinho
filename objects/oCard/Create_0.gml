@@ -54,3 +54,4 @@ hover = 1;
 visivel = false;
 acertou = false;
 state = jogo;
+
