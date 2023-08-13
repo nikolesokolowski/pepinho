@@ -17,7 +17,6 @@
     {"name":"inst_3E93CAB6","path":"rooms/Categoria/Categoria.yy",},
     {"name":"inst_57005B67","path":"rooms/Categoria/Categoria.yy",},
     {"name":"inst_5BC32570","path":"rooms/Categoria/Categoria.yy",},
-    {"name":"inst_37CA64C2","path":"rooms/Categoria/Categoria.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -26,7 +25,6 @@
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_48670FE1","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":0.2,"scaleY":0.2,"spriteId":{"name":"spr_Pepinho1","path":"sprites/spr_Pepinho1/spr_Pepinho1.yy",},"x":1648.0,"y":816.0,},
       ],"depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":64,"gridY":64,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_37CA64C2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oGlobal","path":"objects/oGlobal/oGlobal.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2240.0,"y":576.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E424693_2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oFechar","path":"objects/oFechar/oFechar.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"action","path":"objects/oBotao/oBotao.yy",},"value":"btnFechar",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1808.0,"y":16.0,},

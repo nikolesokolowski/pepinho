@@ -6,6 +6,7 @@ if hovering
 	image_index = 1;
 	if click
 	{
+		audio_play_sound(snd, 1, 0);
 		room_goto(Dificuldade);
 		global.categoria = categoria;
 	}

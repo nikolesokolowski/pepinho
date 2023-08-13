@@ -51,6 +51,7 @@ image_index = img//imagem //define o frame da sprite
 */
 
 hover = 1;
+hover2 = hover;
 visivel = false;
 acertou = false;
 state = jogo;

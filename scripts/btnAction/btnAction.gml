@@ -37,5 +37,6 @@ function btnCreditos(){
 	room_goto(Creditos);
 }
 function btnJogar(){
+	audio_play_sound(snd_jogar, 1, 0);
 	room_goto(Categoria);
 }

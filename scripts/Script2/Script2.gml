@@ -7,16 +7,19 @@ function jogo(){
 	if acertou
 	{
 		visivel = true;	
+		hover2 = 0;
 	}
 	if !acertou
 	{
 		if hovering
 		{
 			hover = 0.8;
+			hover2 = hover;
 			if !visivel
 			{
 				if click
 				{
+					audio_play_sound(global.categoria[4][id_card],1,0);
 					visivel = !visivel;
 					array_push(global.escolha, id);
 					if array_length(global.escolha) == 2
@@ -30,6 +33,7 @@ function jogo(){
 		else
 		{
 			hover = 1;
+			hover2 = hover;
 		} 
 	}
 }

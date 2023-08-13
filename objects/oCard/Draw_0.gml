@@ -1,6 +1,6 @@
 if visivel
 {
-	draw_sprite_ext(spr_Card, 1, x, y, image_xscale, image_xscale, image_angle, c_white, hover);
+	draw_sprite_ext(spr_Card, 1, x, y, image_xscale, image_xscale, image_angle, c_white, hover2);
 	if img = true
 	{
 	draw_sprite_ext(global.categoria[2], id_card, x, y, image_xscale, image_xscale, image_angle, c_white, hover);
