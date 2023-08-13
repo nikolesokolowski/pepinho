@@ -1,0 +1,2 @@
+state = jogo;
+visivel = false;
