@@ -39,6 +39,7 @@
     {"name":"spr_categoria","order":11,"path":"sprites/spr_categoria/spr_categoria.yy",},
     {"name":"spr_jogar","order":2,"path":"sprites/spr_jogar/spr_jogar.yy",},
     {"name":"Fase_Medio","order":6,"path":"rooms/Fase_Medio/Fase_Medio.yy",},
+    {"name":"Script2","order":1,"path":"scripts/Script2/Script2.yy",},
     {"name":"titulo","order":1,"path":"fonts/titulo/titulo.yy",},
     {"name":"spr_titulo","order":3,"path":"sprites/spr_titulo/spr_titulo.yy",},
     {"name":"Ret_ngulo_40","order":12,"path":"sprites/Ret_ngulo_40/Ret_ngulo_40.yy",},

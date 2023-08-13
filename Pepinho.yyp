@@ -60,6 +60,7 @@
     {"id":{"name":"spr_categoria","path":"sprites/spr_categoria/spr_categoria.yy",},},
     {"id":{"name":"spr_jogar","path":"sprites/spr_jogar/spr_jogar.yy",},},
     {"id":{"name":"Fase_Medio","path":"rooms/Fase_Medio/Fase_Medio.yy",},},
+    {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},},
     {"id":{"name":"titulo","path":"fonts/titulo/titulo.yy",},},
     {"id":{"name":"spr_titulo","path":"sprites/spr_titulo/spr_titulo.yy",},},
     {"id":{"name":"Ret_ngulo_40","path":"sprites/Ret_ngulo_40/Ret_ngulo_40.yy",},},

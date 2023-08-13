@@ -50,5 +50,7 @@ sprite_index = global.categoria[carta] //define a sprite
 image_index = img//imagem //define o frame da sprite
 */
 
+hover = 1;
 visivel = false;
 acertou = false;
+state = jogo;
