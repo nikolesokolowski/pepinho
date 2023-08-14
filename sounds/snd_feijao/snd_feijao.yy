@@ -12,8 +12,8 @@
   "conversionMode": 0,
   "duration": 1.008,
   "parent": {
-    "name": "Sons",
-    "path": "folders/Sons.yy",
+    "name": "Alimentos",
+    "path": "folders/Sons/Alimentos.yy",
   },
   "preload": false,
   "sampleRate": 44100,
