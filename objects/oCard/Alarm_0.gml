@@ -1,12 +1,12 @@
-if global.escolha[0].id_card == global.escolha[1].id_card
+if global.escolha[0].carta == global.escolha[1].carta
 {
-	show_message("acertou");
 	global.escolha[0].acertou = true;
 	global.escolha[1].acertou = true;
+	array_push(conferencia, global.escolha[0]);
+	array_push(conferencia, global.escolha[1]);
 }
 else
 {
-	show_message("errou");
 	global.escolha[0].visivel = false;
 	global.escolha[1].visivel = false;
 }

@@ -7,6 +7,7 @@ if hovering
 	if click
 	{
 		audio_play_sound(snd, 1, 0);
+		global.dificuldade = selecao;
 		room_goto(fase);	
 	}
 }

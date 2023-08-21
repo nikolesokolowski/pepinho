@@ -19,7 +19,7 @@ function jogo(){
 			{
 				if click
 				{
-					audio_play_sound(global.categoria[4][id_card],1,0);
+					audio_play_sound(global.categoria[4][carta],1,0);
 					visivel = !visivel;
 					array_push(global.escolha, id);
 					if array_length(global.escolha) == 2

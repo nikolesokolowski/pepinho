@@ -1,3 +1,3 @@
 state = pause;
 visivel = true;
-alarm[1] =  60*2;
+alarm[1] =  60*3;

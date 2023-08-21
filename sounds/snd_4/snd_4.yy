@@ -10,14 +10,14 @@
   "bitRate": 128,
   "compression": 0,
   "conversionMode": 0,
-  "duration": 134.11266,
+  "duration": 0.816,
   "parent": {
-    "name": "Background",
-    "path": "folders/Sons/Background.yy",
+    "name": "Números",
+    "path": "folders/Sons/Números.yy",
   },
   "preload": false,
   "sampleRate": 44100,
   "soundFile": "snd_4.mp3",
   "type": 0,
-  "volume": 0.1,
+  "volume": 1.0,
 }
