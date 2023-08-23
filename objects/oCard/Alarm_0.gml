@@ -2,8 +2,7 @@ if global.escolha[0].carta == global.escolha[1].carta
 {
 	global.escolha[0].acertou = true;
 	global.escolha[1].acertou = true;
-	array_push(conferencia, global.escolha[0]);
-	array_push(conferencia, global.escolha[1]);
+	array_push(global.conferencia, global.escolha[0]);
 }
 else
 {

@@ -16,7 +16,7 @@ else
 	carta = global.result[id_card];
 }
 
-conferencia = [];
+global.conferencia = [];
 
 if global.categoria[2] == 0
 {

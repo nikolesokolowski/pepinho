@@ -1,6 +1,6 @@
 script_execute(state);
 
-if array_length(conferencia) >= (global.dificuldade*2)
+if array_length(global.conferencia) >= (global.dificuldade)
 {
 	room_goto(Parabens);
 }

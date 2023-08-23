@@ -1,3 +1,4 @@
+
 state = pause;
 visivel = true;
 oBotao.state = pause;
