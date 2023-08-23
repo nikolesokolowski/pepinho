@@ -7,7 +7,7 @@ animaisCards = ["COBRA", "PÁSSARO", "LEÃO", "TATU", "PANDA", "PEIXE", "GIRAFA"
 animaisSounds = [snd_cobra, snd_passaro, snd_leao, snd_tatu, snd_panda, snd_peixe, snd_girafa, snd_cavalo, snd_ovelha, snd_cachorro, snd_galinha, snd_hipopotamo, snd_porco, snd_gato, snd_coelho];
 
 coresCards = ["AZUL CLARO", "AZUL ESCURO", "VERDE CLARO", "VERDE ESCURO", "VERMELHO", "CINZA", "PRETO", "AMARELO", "LARANJA", "MARROM", "BRANCO", "ROSA", "LILÁS", "ROXO"];
-coresSounds = [snd_azulClaro, snd_azulEscuro, snd_verdeClaro, snd_verdeEscuro, snd_vermelho, snd_cinza, snd_preto, snd_amarelo, snd_laranja, snd_branco, snd_rosa, snd_lilas, snd_roxo];
+coresSounds = [snd_azulClaro, snd_azulEscuro, snd_verdeClaro, snd_verdeEscuro, snd_vermelho, snd_cinza, snd_preto, snd_amarelo, snd_laranja, snd_marrom, snd_branco, snd_rosa, snd_lilas, snd_roxo];
 
 emocoesCards = ["ENVERGONHADO", "ENJOADO", "CHORANDO", "SORRIDENTE", "DOENTE", "NEUTRO", "CONFUSO", "ASSUSTADO", "DECEPCIONADO", "SURPRESO", "BRINCALHÃO", "BRAVO", "SONOLENTO", "FELIZ", "TRISTE"];
 emocoesSounds = [snd_envergonhado, snd_enjoado, snd_chorando, snd_sorridente, snd_doente, snd_neutro, snd_confuso, snd_assustado, snd_decepcionado, snd_surpreso, snd_brincalhao, snd_bravo, snd_sonolento, snd_feliz, snd_triste];

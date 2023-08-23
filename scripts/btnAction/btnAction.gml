@@ -7,11 +7,12 @@ function btnFechar(){
 	{
 		case TelaInicial:
 			audio_play_sound(snd_sair, 1, 0);
-			instance_deactivate_layer("Instances");
+			oBotao.state = pause;
 			instance_activate_layer("Instances_1");
 			layer_set_visible("Assets_2", true);
 			layer_set_visible("Instances_1", true);
 			layer_set_visible("Backgrounds_1", true);
+			obtnModal.state = Modal;
 			break;
 		case Creditos:
 			room_goto(TelaInicial);
@@ -23,13 +24,34 @@ function btnFechar(){
 			room_goto(Categoria);
 			break;
 		case Fase_Facil:
-			script_execute(modalSair);
+			audio_play_sound(snd_sair, 1, 0);
+			oCard.state = pause;
+			oBotao.state = pause;
+			instance_activate_layer("Instances_1");
+			layer_set_visible("Assets_2", true);
+			layer_set_visible("Instances_1", true);
+			layer_set_visible("Backgrounds_1", true);
+			obtnModal.state = Modal;
 			break;
 		case Fase_Medio:
-			script_execute(modalSair);
+			audio_play_sound(snd_sair, 1, 0);
+			oCard.state = pause;
+			oBotao.state = pause;
+			instance_activate_layer("Instances_1");
+			layer_set_visible("Assets_2", true);
+			layer_set_visible("Instances_1", true);
+			layer_set_visible("Backgrounds_1", true);
+			obtnModal.state = Modal;
 			break;
 		case Fase_Dificil:
-			script_execute(modalSair);
+			audio_play_sound(snd_sair, 1, 0);
+			oBotao.state = pause;
+			oCard.state = pause;
+			instance_activate_layer("Instances_1");
+			layer_set_visible("Assets_2", true);
+			layer_set_visible("Instances_1", true);
+			layer_set_visible("Backgrounds_1", true);
+			obtnModal.state = Modal;
 			break;
 		case Parabens:
 			room_goto(Categoria);
@@ -48,14 +70,33 @@ function btnJogar(){
 function btnModal(){
 	if spr = 0
 	{
-		game_end();	
+		switch room
+		{
+			case TelaInicial:
+				game_end();	
+				break;
+			case Fase_Facil:
+				room_goto(Categoria);
+				break;
+			case Fase_Medio:
+				room_goto(Categoria);
+				break;
+			case Fase_Dificil:
+				room_goto(Categoria);
+				break;
+		}
 	}
 	else
 	{
 		layer_set_visible("Instances_1", false);
+		obtnModal.state = pause;
 		instance_deactivate_layer("Instances_1");
 		layer_set_visible("Assets_2", false);
 		layer_set_visible("Backgrounds_1", false);
-		instance_activate_layer("Instances");
+		oBotao.state = btnJogo;
+		if room == Fase_Facil or room == Fase_Medio or room == Fase_Dificil
+		{
+			oCard.state = jogo;
+		}
 	}
 }

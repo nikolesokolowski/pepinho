@@ -9,7 +9,6 @@
   "instanceCreationOrder": [
     {"name":"inst_E424693_2_1","path":"rooms/Dificuldade/Dificuldade.yy",},
     {"name":"inst_5AC4DF96_1_1","path":"rooms/Dificuldade/Dificuldade.yy",},
-    {"name":"inst_12ECD606_1_1","path":"rooms/Dificuldade/Dificuldade.yy",},
     {"name":"inst_52AF41D_1","path":"rooms/Dificuldade/Dificuldade.yy",},
     {"name":"inst_2D38937","path":"rooms/Dificuldade/Dificuldade.yy",},
     {"name":"inst_76DB5957","path":"rooms/Dificuldade/Dificuldade.yy",},
@@ -26,9 +25,6 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"action","path":"objects/oBotao/oBotao.yy",},"value":"btnFechar",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1808.0,"y":16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_5AC4DF96_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oMouse","path":"objects/oMouse/oMouse.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":816.0,"y":-96.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_12ECD606_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oAjuda","path":"objects/oAjuda/oAjuda.yy",},"properties":[
-            {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"action","path":"objects/oBotao/oBotao.yy",},"value":"btnCreditos",},
-          ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_52AF41D_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"propertyId":{"name":"fonte","path":"objects/oCredits/oCredits.yy",},"value":"fonte1",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":864.0,"y":960.0,},
