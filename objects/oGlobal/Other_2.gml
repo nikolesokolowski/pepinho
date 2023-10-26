@@ -1,0 +1,1 @@
+audio_play_sound(BemVindo, 1, 0);

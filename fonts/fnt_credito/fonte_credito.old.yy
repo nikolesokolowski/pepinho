@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fonte1",
+  "name": "fonte_credito",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 29,

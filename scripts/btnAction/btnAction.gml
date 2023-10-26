@@ -100,3 +100,69 @@ function btnModal(){
 		}
 	}
 }
+function scrSom2() {
+// Inicialize a lista de áudios
+
+show_debug_message(global.categoria[1])
+
+    switch (global.categoria[1]) {
+        case "ALIMENTOS":
+            audioDificuldade= [telaDificuldade01, snd_alimentos, telaDificuldade02];
+            break;
+        case "ANIMAIS":
+            audioDificuldade= [telaDificuldade01, snd_animais, telaDificuldade02];
+            break;
+        case "CORES":
+            audioDificuldade= [telaDificuldade01, snd_cores, telaDificuldade02];
+            break;
+        case "EMOÇÕES":
+            audioDificuldade= [telaDificuldade01, snd_emocoes, telaDificuldade02];
+            break;
+        case "NÚMEROS":
+            audioDificuldade= [telaDificuldade01, snd_numeros, telaDificuldade02];
+            break;
+        case "OBJETOS":
+            audioDificuldade= [telaDificuldade01, snd_objetos, telaDificuldade02];
+            break;
+			default:
+			show_message("ERROR");
+			break;
+    }
+	
+// Certifique-se de que audioDificuldade é um array contendo os IDs de áudio na ordem que você deseja reproduzi-los.
+if array_length_1d(audioDificuldade) > 0 {
+    for (var i = 0; i < array_length_1d(audioDificuldade); i++) {
+        var audioID = audioDificuldade[i];
+        if !audio_is_playing(audioID) {
+            audio_play_sound(audioID, 1, false);
+        }
+        while audio_is_playing(audioID) {
+            // Aguarde até que o áudio termine antes de passar para o próximo.
+        }
+    }
+} else {
+    show_debug_message("O array de áudios está vazio.");
+}
+}
+
+
+
+function scrSom(){
+switch room {
+        case Categoria:
+            audio = telaCategorias;
+            break;
+        case Fase_Facil:
+        case Fase_Medio:
+        case Fase_Dificil:
+            audio = telaFase;
+            break;
+        case Parabens:
+            audio = telaParabens;
+            break;
+    }
+
+    if !audio_is_playing(audio) {
+        audio_play_sound(audio, 1, false);
+    }	
+}
