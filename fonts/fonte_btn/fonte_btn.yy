@@ -1,7 +1,7 @@
 {
   "resourceType": "GMFont",
   "resourceVersion": "1.0",
-  "name": "fonte2",
+  "name": "fonte_btn",
   "AntiAlias": 1,
   "applyKerning": 0,
   "ascender": 47,
@@ -204,7 +204,7 @@
     "253": {"character":253,"h":63,"offset":-1,"shift":30,"w":32,"x":189,"y":132,},
     "254": {"character":254,"h":63,"offset":-1,"shift":34,"w":34,"x":223,"y":132,},
     "255": {"character":255,"h":63,"offset":-1,"shift":30,"w":32,"x":300,"y":392,},
-    "9647": {"character":9647,"h":63,"offset":13,"shift":51,"w":31,"x":334,"y":392,},
+    "9647": {"character":9647,"h":63,"offset":12,"shift":51,"w":31,"x":334,"y":392,},
   },
   "hinting": 0,
   "includeTTF": false,

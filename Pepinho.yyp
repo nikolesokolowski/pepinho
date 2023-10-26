@@ -97,7 +97,7 @@
     {"id":{"name":"snd_pudim","path":"sounds/snd_pudim/snd_pudim.yy",},},
     {"id":{"name":"snd_verdeClaro","path":"sounds/snd_verdeClaro/snd_verdeClaro.yy",},},
     {"id":{"name":"Fase_Dificil","path":"rooms/Fase_Dificil/Fase_Dificil.yy",},},
-    {"id":{"name":"fonte2","path":"fonts/fonte2/fonte2.yy",},},
+    {"id":{"name":"fonte_btn","path":"fonts/fonte_btn/fonte_btn.yy",},},
     {"id":{"name":"spr_alimentos","path":"sprites/spr_alimentos/spr_alimentos.yy",},},
     {"id":{"name":"snd_4","path":"sounds/snd_4/snd_4.yy",},},
     {"id":{"name":"snd_helicoptero","path":"sounds/snd_helicoptero/snd_helicoptero.yy",},},

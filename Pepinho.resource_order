@@ -74,7 +74,7 @@
     {"name":"snd_pudim","order":11,"path":"sounds/snd_pudim/snd_pudim.yy",},
     {"name":"snd_verdeClaro","order":11,"path":"sounds/snd_verdeClaro/snd_verdeClaro.yy",},
     {"name":"Fase_Dificil","order":10,"path":"rooms/Fase_Dificil/Fase_Dificil.yy",},
-    {"name":"fonte2","order":2,"path":"fonts/fonte2/fonte2.yy",},
+    {"name":"fonte_btn","order":2,"path":"fonts/fonte_btn/fonte_btn.yy",},
     {"name":"snd_4","order":9,"path":"sounds/snd_4/snd_4.yy",},
     {"name":"snd_helicoptero","order":3,"path":"sounds/snd_helicoptero/snd_helicoptero.yy",},
     {"name":"snd_tatu","order":14,"path":"sounds/snd_tatu/snd_tatu.yy",},
