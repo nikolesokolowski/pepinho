@@ -22,12 +22,31 @@ if visivel
 	}
 	else
 	{
+		
 var texto = global.result[id_card];
 var fonte = fnt_card;
+var fonte2 = fnt_card_2
+
+switch room
+{
+	case Fase_Facil:
+		fonte = fnt_card_facil;
+		fonte2 = fnt_card_facil2;
+		break;
+	case Fase_Medio:
+		fonte = fnt_card_medio;
+		fonte2 = fnt_card_medio2;
+		break;
+	case Fase_Dificil:
+		fonte = fnt_card;
+		fonte2 = fnt_card_2;
+		break;
+}
 
 // Verifique o tamanho do texto em pixels
+
 if (string_width(texto) > 80) {
-    fonte = fnt_card_2; // Altere a fonte para fonte_2
+    fonte = fonte2; // Altere a fonte para fonte_2
 }
 
 draw_set_color(#333333); // Cor para desenhar o texto

@@ -160,6 +160,9 @@ switch room {
         case Parabens:
             audio = telaParabens;
             break;
+		case Dificuldade:
+			audio = telaDificuldade02;
+			break;
     }
 
     if !audio_is_playing(audio) {
