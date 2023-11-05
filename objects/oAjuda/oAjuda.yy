@@ -32,8 +32,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_ajuda",
-    "path": "sprites/spr_ajuda/spr_ajuda.yy",
+    "name": "forma_de_pata_de_sapo",
+    "path": "sprites/forma_de_pata_de_sapo/forma_de_pata_de_sapo.yy",
   },
   "spriteMaskId": null,
   "visible": true,

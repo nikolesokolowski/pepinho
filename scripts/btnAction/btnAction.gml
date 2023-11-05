@@ -58,15 +58,12 @@ function btnFechar(){
 		break;
 	}
 }
-
 function btnCreditos(){
 	room_goto(Creditos);
 }
 function btnJogar(){
-	audio_play_sound(snd_jogar, 1, 0);
 	room_goto(Categoria);
 }
-
 function btnModal(){
 	if spr = 0
 	{
@@ -144,9 +141,6 @@ if array_length_1d(audioDificuldade) > 0 {
     show_debug_message("O array de áudios está vazio.");
 }
 }
-
-
-
 function scrSom(){
 switch room {
         case Categoria:
@@ -168,4 +162,10 @@ switch room {
     if !audio_is_playing(audio) {
         audio_play_sound(audio, 1, false);
     }	
+}
+function scrAudio(){
+	if !audio_is_playing(btnaudio)
+	{
+		audio_play_sound(btnaudio, 1, false);	
+	}
 }

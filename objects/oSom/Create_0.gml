@@ -2,6 +2,6 @@
 // Você pode escrever seu código neste editor
 
 // Inherit the parent event
-event_inherited();
+
 hover = 1;
 audio = 0;

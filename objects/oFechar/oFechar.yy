@@ -7,7 +7,9 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"btnaudio","path":"objects/oBotao/oBotao.yy",},"value":"snd_voltar",},
+  ],
   "parent": {
     "name": "Botoes",
     "path": "folders/Objetos/Botoes.yy",
@@ -32,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_fechar",
-    "path": "sprites/spr_fechar/spr_fechar.yy",
+    "name": "spr_voltar",
+    "path": "sprites/spr_voltar/spr_voltar.yy",
   },
   "spriteMaskId": null,
   "visible": true,

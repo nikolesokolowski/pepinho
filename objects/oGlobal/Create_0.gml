@@ -1,6 +1,7 @@
 global.categoria = 0;
 global.dificuldade = 0;
 global.escolha = [];
+global.audio = -1
 
 //musica
 tracklist = [song_1, song_2, song_3, song_4, song_5];

@@ -6,10 +6,10 @@ if visivel
 		if number
 		{
 			draw_set_color(c_fuchsia);
-			draw_set_font(fnt_titulo);
+			draw_set_font(fnt_numbers);
 			draw_set_halign(fa_center);
 			draw_set_valign(fa_center);
-			draw_text_ext(x, y, global.result[id_card], 50,100);
+			draw_text(x-2, y+25, global.result[id_card]);
 			draw_set_font(-1);
 			draw_set_valign(-1);
 			draw_set_halign(-1);

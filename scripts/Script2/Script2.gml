@@ -30,8 +30,28 @@ function pause(){
 function btnJogo() {
     hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);
     click = mouse_check_button_released(mb_left);
-
-    if hovering {
+	audio = btnaudio;
+if hovering
+{
+        if (!audio_is_playing(audio) && !audio_played_sim)
+        {
+            audio_play_sound(audio, 1, 0);
+            audio_played_sim = true;
+        }
+    image_index = 1;
+    if click
+    {
+        action();	
+    }
+}
+else
+{
+    // Reset the audio played flag when the mouse is not hovering
+    audio_played_sim = false;
+	image_index = 0;
+}
+}
+/*    if hovering {
         image_index = 1;
         if click {
             action();
@@ -39,7 +59,7 @@ function btnJogo() {
     } else {
         image_index = 0;
     }
-}
+}*/
 
 function Modal(){
 	hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);

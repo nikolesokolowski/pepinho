@@ -9,17 +9,12 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
-  "overriddenProperties": [
-    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"action","path":"objects/oBotao/oBotao.yy",},"value":"scrSom",},
-  ],
+  "overriddenProperties": [],
   "parent": {
     "name": "Botoes",
     "path": "folders/Objetos/Botoes.yy",
   },
-  "parentObjectId": {
-    "name": "oBotao",
-    "path": "objects/oBotao/oBotao.yy",
-  },
+  "parentObjectId": null,
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -33,7 +28,10 @@
   "physicsShape": 1,
   "physicsShapePoints": [],
   "physicsStartAwake": true,
-  "properties": [],
+  "properties": [
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"btnaudio","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"state","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":0,},
+  ],
   "solid": false,
   "spriteId": {
     "name": "som",

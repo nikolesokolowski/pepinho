@@ -1,3 +1,4 @@
+audio_played_sim = false;
 switch dificuldade
 {
 	case 0:

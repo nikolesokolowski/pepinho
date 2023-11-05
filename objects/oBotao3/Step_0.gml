@@ -3,15 +3,28 @@ click = mouse_check_button_released(mb_left);
 
 if hovering
 {
-	image_index = 1;
-	if click
+	if audio_is_playing(global.audio)
 	{
-		audio_play_sound(snd, 1, 0);
-		global.dificuldade = selecao;
-		room_goto(fase);	
+		audio_stop_sound(global.audio)
 	}
+
+	image_index = 1;
+    if (!audio_is_playing(btnaudio) && !audio_played_sim)
+    {
+       audio_play_sound(btnaudio, 1, 0);
+       audio_played_sim = true;
+    }
+    if click
+    {
+		audio_play_sound(snd,1,0);
+		global.dificuldade = selecao;
+		room_goto(fase);
+    }
+
 }
 else
 {
+    // Reset the audio played flag when the mouse is not hovering
+    audio_played_sim = false;
 	image_index = 0;
-} 
+}

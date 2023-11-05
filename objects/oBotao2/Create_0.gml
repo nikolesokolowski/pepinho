@@ -1,3 +1,5 @@
+audio_played_sim = false;
+
 alimentosCards = ["ARROZ", "OVO", "CACHORRO QUENTE", "SOPA", "FEIJÃO", "SALADA", "FRANGO", "CARNE", "PUDIM", "BOLO",
 "COOKIE", "PIZZA", "MACARRÃO", "HAMBURGUER"];
 alimentosSounds = [ snd_arroz, snd_ovo, snd_hotdog, snd_sopa, snd_feijao, snd_salada, snd_frango, snd_carne, snd_pudim, snd_bolo, 
