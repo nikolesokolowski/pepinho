@@ -10,6 +10,7 @@
     {"name":"inst_E424693_1","path":"rooms/Creditos/Creditos.yy",},
     {"name":"inst_10F103F6","path":"rooms/Creditos/Creditos.yy",},
     {"name":"inst_7C096939","path":"rooms/Creditos/Creditos.yy",},
+    {"name":"inst_48FC18DD","path":"rooms/Creditos/Creditos.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -19,16 +20,17 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"action","path":"objects/oBotao/oBotao.yy",},"value":"btnFechar",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oBotao","path":"objects/oBotao/oBotao.yy",},"propertyId":{"name":"btnaudio","path":"objects/oBotao/oBotao.yy",},"value":"snd_voltar",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1808.0,"y":16.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10F103F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_10F103F6","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"propertyId":{"name":"texto","path":"objects/oCredits/oCredits.yy",},"value":"\"Pepinho é um jogo educativo digital com foco no ensino de crianças com Transtorno de Espectro Autista (TEA), foi desenvolvido como trabalho acadêmico de conclusão do curso de graduação de Engenharia de Software no Centro Universitário Fundação Assis Gurgacz (FAG) pela acadêmica Nikole Cristina Sokolowski, orientada pelo professor Elenilton Jairo Dezengrini.\"",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"propertyId":{"name":"fonte","path":"objects/oCredits/oCredits.yy",},"value":"fnt_credito",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":304.0,},
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C096939","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_7C096939","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":true,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"properties":[
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"propertyId":{"name":"texto","path":"objects/oCredits/oCredits.yy",},"value":"\"PEPINHO\"",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"oCredits","path":"objects/oCredits/oCredits.yy",},"propertyId":{"name":"fonte","path":"objects/oCredits/oCredits.yy",},"value":"fnt_titulo",},
           ],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":960.0,"y":160.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_48FC18DD","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"oCredito","path":"objects/oCredito/oCredito.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":276.0,"y":78.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sky","path":"sprites/sky/sky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4283190348,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":{"name":"sky","path":"sprites/sky/sky.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Cenas",
